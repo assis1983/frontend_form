@@ -46,9 +46,13 @@ export const StyleImage = styled.div`
   display: flex;
   justify-content: space-around;
   div {
-    width: 5rem;
+    width: 6rem;
   }
   p {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     color: black;
+    font-size: 1rem;
   }
 `;
