@@ -3,34 +3,49 @@ import styled from "styled-components";
 export const Form = styled.form`
   display: flex;
   flex-direction: column;
-  max-width: 400px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
+  border: 6px solid #34d1bf;
+  border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: border-radius 0.1s ease; 
+
+  &:hover {
+    border-radius: 20px; 
+  }
 
   input {
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: none;
+    border-bottom: 1px solid #34d1bf;
+    background-color: black;
+    color: white;
   }
- 
+
+  input:focus {
+    outline: none;
+  }
+
+  .message {
+    border: 1px solid #34d1bf;
+    height: 5rem;
+  }
+
   .button {
     padding: 10px;
-    background-color: #007bff;
+    background-color: #34d1bf;
+    font-size: 20px;
     color: #fff;
     border: none;
-    border-radius: 4px;
+    border-radius: 15px;
     cursor: pointer;
-
-    &:hover {
-      background-color: #0056b3;
-    }
+    width: 7rem;
+    height: 3rem;
+    margin: 0 auto;
   }
 `;
-
 
 export const CenteredContainer = styled.div`
   display: flex;
@@ -39,6 +54,15 @@ export const CenteredContainer = styled.div`
 `;
 
 export const Title = styled.h1`
-  color: #0056b3;
-
-`
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 10rem;
+  font-size: 50px;
+`;
+export const Frase = styled.p`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh; 
+  font-size: 1.4rem;
+`;

@@ -1,6 +1,6 @@
 import { api } from "../../services/api";
 import { FormEvent, useRef, useState } from "react";
-import { Form, Title, CenteredContainer } from "./style";
+import { Form, Title, CenteredContainer, Frase } from "./style";
 
 interface CustomerProps {
   id: string;
@@ -48,19 +48,24 @@ const TextInput = () => {
   return (
     <>
       <CenteredContainer>
-        <Title>Formulário</Title>
+        <Title>FALE COMIGO</Title>
       </CenteredContainer>
+      <Frase>
+        Resta alguma dúvida? Prencha os campos abaixo com os seguintes dados e
+        entre em contato comigo.
+      </Frase>
+
       <Form onSubmit={handleSubmit}>
-        <label>Nome</label>
-        <input type="text" placeholder="Nome" ref={nameRef} />
-        <label>Email</label>
-        <input type="email" placeholder="Email" ref={emailRef} />
-        <label>Fone</label>
+        <input type="text" placeholder="Seu nome aqui" ref={nameRef} />
+        <input type="email" placeholder="email@exemplo.com.br" ref={emailRef} />
         <input type="text" placeholder="Fone" ref={foneRef} />
-        <label>Assunto</label>
         <input type="text" placeholder="Assunto" ref={subjectRef} />
-        <label>Mensagem</label>
-        <input type="text" placeholder="Mensagem" ref={messageRef} />
+        <input
+          className="message"
+          type="text"
+          placeholder="Escreva sua mensagem aqui"
+          ref={messageRef}
+        />
         <input className="button" type="submit" />
       </Form>
     </>

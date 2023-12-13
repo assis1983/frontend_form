@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
   background-color: #333;
@@ -7,12 +7,17 @@ export const HeaderContainer = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+
   .name {
     color: #34d1bf;
     font-size: 30px;
     text-decoration: none;
     margin: 5px;
+  }
+
+  .LinkGit {
+    text-decoration: none;
+    color: inherit;
   }
 `;
 
@@ -25,6 +30,10 @@ export const Menu = styled.nav`
   li {
     margin-right: 15px;
     font-family: Sans-Serif;
+    &:hover {
+      color: #34d1bf;
+      border-bottom: 2px solid #34d1bf;
+    }
   }
 
   a {
@@ -33,8 +42,15 @@ export const Menu = styled.nav`
     font-weight: 300;
     font-size: 22px;
     &:hover {
-      color: #efefef; 
+      color: #34d1bf;
+      border-bottom: 2px solid #34d1bf;
     }
   }
 `;
 
+
+export const StyleLink = styled.div`
+  display: flex;
+  gap: 2rem;
+
+`

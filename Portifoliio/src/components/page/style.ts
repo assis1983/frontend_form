@@ -1,13 +1,10 @@
 import styled from "styled-components";
 
-
 export const Container = styled.div`
   background-color: #333;
-  width: 100%;
-  height: 100%;
-  margin: 0; 
-  padding: 0; 
-  box-sizing: border-box; 
+  height: 25rem;
+  padding: 0;
+  box-sizing: border-box;
 `;
 export const StyledTextPage = styled.h1`
   color: #34d1bf;
