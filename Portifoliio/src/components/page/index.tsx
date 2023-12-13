@@ -34,62 +34,62 @@ const Page = () => {
         <div>
           <a href="https://www.javascript.com/" target="_blank">
             <IconJs />
+            <p>JAVASCRIPT</p>
           </a>
-          <p>JAVASCRIPT</p>
         </div>
         <div>
           <a href="https://nodejs.org/en" target="_blank">
             <IconNode />
+            <p>NODE</p>
           </a>
-          <p>NODE</p>
         </div>
         <div>
           <a href="https://www.typescriptlang.org/" target="_blank">
             <IconTS />
+            <p>TYPESCRIPT</p>
           </a>
-          <p>TYPESCRIPT</p>
         </div>
         <div>
           <a href="https://www.npmjs.com/" target="_blank">
             <IconNpm />
+            <p>NPM</p>
           </a>
-          <p>NPM</p>
         </div>
         <div>
           <a href="https://react.dev/" target="_blank">
             <IconReact />
+            <p>REACT</p>
           </a>
-          <p>REACT</p>
         </div>
         <div>
           <a href="https://www.w3.org/" target="_blank">
             <IconHtml />
+            <p>HTML</p>
           </a>
-          <p>HTML</p>
         </div>
         <div>
           <a href="https://www.w3.org/" target="_blank">
             <IconCss />
+            <p>CSS</p>
           </a>
-          <p>CSS</p>
         </div>
         <div>
           <a href="https://www.mongodb.com/" target="_blank">
             <IconMongodb />
+            <p>MONGODB</p>
           </a>
-          <p>MONGODB</p>
         </div>
         <div>
           <a href="https://git-scm.com/" target="_blank">
             <IconGit />
+            <p>GIT</p>
           </a>
-          <p>GIT</p>
         </div>
         <div>
           <a href="https://code.visualstudio.com/" target="_blank">
             <IconVscode />
+            <p>VSCODE</p>
           </a>
-          <p>VSCODE</p>
         </div>
       </StyleImage>
       <GetKnow id="projects">PROJETOS</GetKnow>

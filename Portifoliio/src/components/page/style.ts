@@ -45,8 +45,13 @@ export const StyleImage = styled.div`
   background-color: white;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  height: 25rem;
   div {
     width: 6rem;
+  }
+  a {
+    text-decoration: none;
   }
   p {
     display: flex;
@@ -54,5 +59,9 @@ export const StyleImage = styled.div`
     justify-content: space-around;
     color: black;
     font-size: 1rem;
+    &:hover {
+      color: #34d1bf;
+      border-bottom: 2px solid #34d1bf;
+    }
   }
 `;
