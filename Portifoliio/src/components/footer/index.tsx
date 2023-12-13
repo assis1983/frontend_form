@@ -1,6 +1,9 @@
 import { StyleFooter, Copyright } from "./style";
 
 const Footer = () => {
+  const linkedinLink = "https://www.linkedin.com/in/ederrassis/";
+  const linkInstagram = "https://www.instagram.com/"
+
   return (
     <>
       <StyleFooter>
@@ -24,8 +27,22 @@ const Footer = () => {
         </div>
         <div className="TitleRedes">
           <h1>REDES SOCIAIS</h1>
-          <p>Linkedin</p>
-          <p>Instagran</p>
+          <a
+            href={linkedinLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="LinkGit"
+          >
+            <p>Linkedin</p>
+          </a>
+          <a
+            href={linkInstagram}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="LinkGit"
+          >
+            <p>Instagran</p>
+          </a>
         </div>
         <div className="TitleContatos">
           <h1>CONTATOS</h1>
