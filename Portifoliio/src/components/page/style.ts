@@ -24,6 +24,7 @@ export const StyledTextFull = styled.h1`
   font-size: 60px;
   margin-top: -5rem;
   font-weight: 300;
+  
 `;
 
 export const GetKnow = styled.h1`
@@ -35,6 +36,9 @@ export const GetKnow = styled.h1`
   color: white;
   margin-top: 10rem;
   font-size: 50px;
+  &:hover {
+    color: #34d1bf;
+  }
 `;
 
 export const StyleImage = styled.div`

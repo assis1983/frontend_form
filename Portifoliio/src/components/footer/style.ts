@@ -15,10 +15,12 @@ export const StyleFooter = styled.div`
     font-size: 1rem;
     margin: 0;
     padding: 0;
+    
   }
 
   .TitleMenu {
     margin-right: 10px;
+    
   }
 
   .TitleRedes {
@@ -27,11 +29,19 @@ export const StyleFooter = styled.div`
 
   .TitleContatos {
     margin-left: 10px;
+    
   }
 
   a {
     text-decoration: none;
     color: inherit;
+    
+  }
+
+  p {
+    &:hover {
+      color: white;
+    }
   }
 `;
 

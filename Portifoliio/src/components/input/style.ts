@@ -58,6 +58,9 @@ export const Title = styled.h1`
   font-weight: 300;
   margin-top: 10rem;
   font-size: 50px;
+  &:hover {
+    color: #34d1bf;
+  }
 `;
 export const Frase = styled.p`
   display: flex;
@@ -65,4 +68,7 @@ export const Frase = styled.p`
   justify-content: center;
   height: 10vh; 
   font-size: 1.4rem;
+  &:hover {
+    color: #34d1bf;
+  }
 `;
