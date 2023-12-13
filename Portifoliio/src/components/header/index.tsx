@@ -32,19 +32,16 @@ const Header = () => {
       <Menu>
         <ul>
           <li>
-            <a href="#item1">home</a>
+            <a href="#information">sobre</a>
           </li>
           <li>
-            <a href="#item2">sobre</a>
+            <a href="#skills">skills</a>
           </li>
           <li>
-            <a href="#item3">skills</a>
+            <a href="#projects">projetos</a>
           </li>
           <li>
-            <a href="#item4">projetos</a>
-          </li>
-          <li>
-            <a href="#item5">contato</a>
+            <a href="#contact">contato</a>
           </li>
         </ul>
       </Menu>
