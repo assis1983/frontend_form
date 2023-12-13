@@ -6,11 +6,21 @@ const Footer = () => {
       <StyleFooter>
         <div className="TitleMenu">
           <h1>MENU</h1>
-          <p>Home</p>
-          <p>Sobre mim</p>
-          <p>Skills</p>
-          <p>Portifólio</p>
-          <p>Contato</p>
+          <a href="#">
+            <p>Home</p>
+          </a>
+          <a href="#information">
+            <p>Sobre mim</p>
+          </a>
+          <a href="#skills">
+            <p>Skills</p>
+          </a>
+          <a href="#projects">
+            <p>Portifólio</p>
+          </a>
+          <a href="#contact">
+            <p>Contato</p>
+          </a>
         </div>
         <div className="TitleRedes">
           <h1>REDES SOCIAIS</h1>

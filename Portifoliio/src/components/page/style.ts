@@ -36,3 +36,15 @@ export const GetKnow = styled.h1`
   margin-top: 10rem;
   font-size: 50px;
 `;
+
+export const StyleImage = styled.div`
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  div {
+    width: 5rem;
+  }
+  p {
+    color: black;
+  }
+`;

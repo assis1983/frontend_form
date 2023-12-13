@@ -28,6 +28,11 @@ export const StyleFooter = styled.div`
   .TitleContatos {
     margin-left: 10px;
   }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 `;
 
 export const Copyright = styled.div`

@@ -48,7 +48,7 @@ const TextInput = () => {
   return (
     <>
       <CenteredContainer>
-        <Title>FALE COMIGO</Title>
+        <Title id="contact">FALE COMIGO</Title>
       </CenteredContainer>
       <Frase>
         Resta alguma dúvida? Prencha os campos abaixo com os seguintes dados e
