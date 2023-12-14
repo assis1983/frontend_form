@@ -8,9 +8,8 @@ import {
   Container,
   StyleImage,
   StyledAbout,
-  ColoredHello,
   StyledProject,
-  ImageProject
+  ImageProject,
 } from "./style";
 import IconJs from "../../assets/js";
 import IconNode from "../../assets/node";
@@ -22,11 +21,11 @@ import IconCss from "../../assets/css";
 import IconVscode from "../../assets/vscode";
 import IconMongodb from "../../assets/mondodb";
 import IconGit from "../../assets/git";
-import Wexer from "../../assets/wexer.png"
+import Wexer from "../../assets/wexer.png";
 import WhatsAppButton from "../button";
+import MyImage from "../../assets/109834675.jpg";
 
 const Page = () => {
-
   return (
     <>
       <Container>
@@ -36,27 +35,27 @@ const Page = () => {
       </Container>
       <GetKnow id="information">SOBRE MIM</GetKnow>
       <StyledAbout>
-        <ColoredHello>Ola,</ColoredHello> sou um profissional em transição de
-        carreira para a área tech, com o propósito de atuar como Desenvolvedor
-        FullStack. Durante uma década, tive a honra de servir no funcionalismo
-        público, onde adquiri uma sólida base em administração e gestão. No
-        entanto, minha paixão pela tecnologia me levou a buscar uma nova direção
-        em minha carreira. Atualmente, estou focado em meu caminho de
-        aprendizado na área de tecnologia, com ênfase em Javascript, React.JS e
-        Node.JS. Acredito que a tecnologia é uma força transformadora que pode
-        criar soluções inovadoras e aprimorar a experiência das pessoas. Minha
-        jornada de estudos tem sido uma emocionante busca por conhecimento e
-        habilidades que me permitirão contribuir de forma significativa para
-        projetos de desenvolvimento web. Além da minha paixão por React.JS,
-        tenho um profundo interesse em desenvolver aplicações web interativas e
-        responsivas que possam melhorar a vida das pessoas e agregar valor aos
-        negócios. Estou comprometido com o aprendizado contínuo e estou ansioso
-        para enfrentar desafios técnicos e colaborar em projetos empolgantes.
-        Sinta-se à vontade para entrar em contato comigo se estiver interessado
-        em discutir oportunidades de colaboração, compartilhar ideias ou
-        simplesmente se conectar.
-      </StyledAbout>  
-      
+        Ola, sou um profissional em transição de carreira para a área tech, com
+        o propósito de atuar como Desenvolvedor FullStack. Durante uma década,
+        tive a honra de servir no funcionalismo público, onde adquiri uma sólida
+        base em administração e gestão. No entanto, minha paixão pela tecnologia
+        me levou a buscar uma nova direção em minha carreira. Atualmente, estou
+        focado em meu caminho de aprendizado na área de tecnologia, com ênfase
+        em Javascript, React.JS e Node.JS. Acredito que a tecnologia é uma força
+        transformadora que pode criar soluções inovadoras e aprimorar a
+        experiência das pessoas. Minha jornada de estudos tem sido uma
+        emocionante busca por conhecimento e habilidades que me permitirão
+        contribuir de forma significativa para projetos de desenvolvimento web.
+        Além da minha paixão por React.JS, tenho um profundo interesse em
+        desenvolver aplicações web interativas e responsivas que possam melhorar
+        a vida das pessoas e agregar valor aos negócios. Estou comprometido com
+        o aprendizado contínuo e estou ansioso para enfrentar desafios técnicos
+        e colaborar em projetos empolgantes. Sinta-se à vontade para entrar em
+        contato comigo se estiver interessado em discutir oportunidades de
+        colaboração, compartilhar ideias ou simplesmente se conectar.
+        <img src={MyImage} />
+      </StyledAbout>
+
       <GetKnow id="skills">MINHAS SKILLS</GetKnow>
 
       <StyleImage>

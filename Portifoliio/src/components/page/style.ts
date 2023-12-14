@@ -24,7 +24,6 @@ export const StyledTextFull = styled.h1`
   font-size: 60px;
   margin-top: -5rem;
   font-weight: 300;
-  
 `;
 
 export const GetKnow = styled.h1`
@@ -48,7 +47,7 @@ export const StyleImage = styled.div`
   align-items: center;
   height: 25rem;
   margin-left: 30px;
-  margin-right: 30px; 
+  margin-right: 30px;
   div {
     width: 6rem;
   }
@@ -79,24 +78,23 @@ export const StyleImage = styled.div`
 `;
 
 export const StyledAbout = styled.div`
+  display: flex;
   text-align: justify;
   font-size: 1.2rem;
   margin-left: 30px;
   margin-right: 30px;
-
-`
-
-export const ColoredHello = styled.span`
-  color: #34d1bf;
-  font-size: 2rem; 
+  gap: 25px;
+  img {
+    width: 50%;
+    height: 380px;
+    border-radius: 50%;
+  }
 `;
-
 export const StyledProject = styled.div`
-display: flex;
-margin-left: 30px;
-margin-right: 30px; 
-
-`
+  display: flex;
+  margin-left: 30px;
+  margin-right: 30px;
+`;
 export const ImageProject = styled.img`
   width: 20%;
   height: auto;
