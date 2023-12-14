@@ -50,6 +50,16 @@ export const StyleImage = styled.div`
   div {
     width: 6rem;
   }
+
+  .efect {
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.4);
+    }
+  }
+
   a {
     text-decoration: none;
   }
@@ -64,4 +74,16 @@ export const StyleImage = styled.div`
       border-bottom: 2px solid #34d1bf;
     }
   }
+`;
+
+export const StyledAbout = styled.div`
+  width: 50%;
+  text-align: justify;
+  font-size: 1.2rem;
+  margin-left: 20px;
+`
+
+export const ColoredHello = styled.span`
+  color: #34d1bf;
+  font-size: 2rem; 
 `;
