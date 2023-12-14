@@ -10,6 +10,8 @@ import {
   StyledAbout,
   StyledProject,
   ImageProject,
+  ButtonVite,
+  CenteredContainer,
 } from "./style";
 import IconJs from "../../assets/js";
 import IconNode from "../../assets/node";
@@ -55,6 +57,9 @@ const Page = () => {
         colaboração, compartilhar ideias ou simplesmente se conectar.
         <img src={MyImage} />
       </StyledAbout>
+      <CenteredContainer>
+        <ButtonVite>BAIXE MEU CV</ButtonVite>
+      </CenteredContainer>
 
       <GetKnow id="skills">MINHAS SKILLS</GetKnow>
 

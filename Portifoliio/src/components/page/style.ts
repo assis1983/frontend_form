@@ -101,3 +101,22 @@ export const ImageProject = styled.img`
   max-height: 250px;
   border-radius: 20px;
 `;
+export const CenteredContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+`;
+
+export const ButtonVite = styled.button`
+  padding: 10px;
+  background-color: #34d1bf;
+  font-size: 20px;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 12rem;
+  height: 3rem;
+  margin: 0 auto;
+`;
