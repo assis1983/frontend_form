@@ -9,6 +9,8 @@ import {
   StyleImage,
   StyledAbout,
   ColoredHello,
+  StyledProject,
+  ImageProject
 } from "./style";
 import IconJs from "../../assets/js";
 import IconNode from "../../assets/node";
@@ -20,7 +22,8 @@ import IconCss from "../../assets/css";
 import IconVscode from "../../assets/vscode";
 import IconMongodb from "../../assets/mondodb";
 import IconGit from "../../assets/git";
-
+import Wexer from "../../assets/wexer.png"
+import WhatsAppButton from "../button";
 
 const Page = () => {
 
@@ -54,7 +57,7 @@ const Page = () => {
         simplesmente se conectar.
       </StyledAbout>  
       
-      <GetKnow id="skills">HABILIDADES</GetKnow>
+      <GetKnow id="skills">MINHAS SKILLS</GetKnow>
 
       <StyleImage>
         <div className="efect">
@@ -119,8 +122,12 @@ const Page = () => {
         </div>
       </StyleImage>
       <GetKnow id="projects">PROJETOS</GetKnow>
+      <StyledProject>
+        <ImageProject src={Wexer} />
+      </StyledProject>
       <TextInput />
       <Footer />
+      <WhatsAppButton />
     </>
   );
 };

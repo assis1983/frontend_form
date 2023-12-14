@@ -47,6 +47,8 @@ export const StyleImage = styled.div`
   justify-content: space-around;
   align-items: center;
   height: 25rem;
+  margin-left: 30px;
+  margin-right: 30px; 
   div {
     width: 6rem;
   }
@@ -77,13 +79,27 @@ export const StyleImage = styled.div`
 `;
 
 export const StyledAbout = styled.div`
-  width: 50%;
   text-align: justify;
   font-size: 1.2rem;
-  margin-left: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+
 `
 
 export const ColoredHello = styled.span`
   color: #34d1bf;
   font-size: 2rem; 
+`;
+
+export const StyledProject = styled.div`
+display: flex;
+margin-left: 30px;
+margin-right: 30px; 
+
+`
+export const ImageProject = styled.img`
+  width: 20%;
+  height: auto;
+  max-height: 250px;
+  border-radius: 20px;
 `;
