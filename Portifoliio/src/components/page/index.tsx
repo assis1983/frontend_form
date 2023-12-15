@@ -58,7 +58,12 @@ const Page = () => {
         <img src={MyImage} />
       </StyledAbout>
       <CenteredContainer>
-        <ButtonVite>BAIXE MEU CV</ButtonVite>
+        <a
+          href="https://drive.google.com/file/d/1jUIxPtWvmAAIx-VdZZ_Mi-OCPPTrI-J8/view?usp=sharing"
+          download="curriculo.pdf"
+        >
+          <ButtonVite>BAIXE MEU CV</ButtonVite>
+        </a>
       </CenteredContainer>
 
       <GetKnow id="skills">MINHAS SKILLS</GetKnow>
