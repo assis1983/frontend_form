@@ -61,6 +61,7 @@ const Page = () => {
         <a
           href="https://drive.google.com/file/d/1jUIxPtWvmAAIx-VdZZ_Mi-OCPPTrI-J8/view?usp=sharing"
           download="curriculo.pdf"
+          target="_blank"
         >
           <ButtonVite>BAIXE MEU CV</ButtonVite>
         </a>
