@@ -56,8 +56,7 @@ export const CenteredContainer = styled.div`
 export const Title = styled.h1`
   font-size: 30px;
   font-weight: 300;
-  margin-top: 10rem;
-  font-size: 50px;
+  margin-top: 5rem;
   &:hover {
     color: #34d1bf;
   }
@@ -66,8 +65,9 @@ export const Frase = styled.p`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: -1rem;
   height: 10vh; 
-  font-size: 1.4rem;
+  font-size: 1rem;
   &:hover {
     color: #34d1bf;
   }

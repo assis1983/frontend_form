@@ -24,6 +24,8 @@ import IconVscode from "../../assets/vscode";
 import IconMongodb from "../../assets/mondodb";
 import IconGit from "../../assets/git";
 import Wexer from "../../assets/wexer.png";
+import W3erp from "../../assets/w3erp.png";
+import Doctors from "../../assets/doctors.png";
 import WhatsAppButton from "../button";
 import MyImage from "../../assets/109834675.jpg";
 
@@ -134,6 +136,8 @@ const Page = () => {
       <GetKnow id="projects">PROJETOS</GetKnow>
       <StyledProject>
         <ImageProject src={Wexer} />
+        <ImageProject src={W3erp} />
+        <ImageProject src={Doctors} />
       </StyledProject>
       <TextInput />
       <Footer />

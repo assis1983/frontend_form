@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background-color: #333;
   height: 25rem;
   padding: 0;
   box-sizing: border-box;
@@ -12,7 +11,7 @@ export const StyledTextPage = styled.h1`
   align-items: center;
   justify-content: center;
   height: 20vh;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: bold;
 `;
 
@@ -30,9 +29,10 @@ export const GetKnow = styled.h1`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 5rem;
   font-weight: 300;
   color: white;
-  font-size: 50px;
+  font-size: 30px;
   &:hover {
     color: #34d1bf;
   }
@@ -40,13 +40,12 @@ export const GetKnow = styled.h1`
 
 export const StyleImage = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  height: 25rem;
   margin-left: 30px;
   margin-right: 30px;
   div {
-    width: 5rem;
+    width: 3rem;
   }
 
   .efect {
@@ -65,10 +64,9 @@ export const StyleImage = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-around;
-    color: black;
+    color: #34d1bf;
     font-size: 1rem;
     &:hover {
-      color: #34d1bf;
       border-bottom: 2px solid #34d1bf;
     }
   }
@@ -77,7 +75,7 @@ export const StyleImage = styled.div`
 export const StyledAbout = styled.div`
   display: flex;
   text-align: justify;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-left: 30px;
   margin-right: 30px;
   gap: 25px;
@@ -89,14 +87,14 @@ export const StyledAbout = styled.div`
 `;
 export const StyledProject = styled.div`
   display: flex;
-  margin-left: 30px;
-  margin-right: 30px;
+  justify-content: space-between;
+  
 `;
 export const ImageProject = styled.img`
-  width: 20%;
+  width: 30%;
   height: auto;
   max-height: 250px;
-  border-radius: 20px;
+  border-radius: 10px;
 `;
 export const CenteredContainer = styled.div`
   display: flex;

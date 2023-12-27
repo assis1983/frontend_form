@@ -12,7 +12,7 @@ export const StyleFooter = styled.div`
     display: flex;
     flex-direction: column;
     color: #34d1bf;
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin: 0;
     padding: 0;
     
