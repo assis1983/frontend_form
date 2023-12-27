@@ -30,10 +30,8 @@ export const GetKnow = styled.h1`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 30px;
   font-weight: 300;
   color: white;
-  margin-top: 10rem;
   font-size: 50px;
   &:hover {
     color: #34d1bf;
@@ -41,7 +39,6 @@ export const GetKnow = styled.h1`
 `;
 
 export const StyleImage = styled.div`
-  background-color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -49,7 +46,7 @@ export const StyleImage = styled.div`
   margin-left: 30px;
   margin-right: 30px;
   div {
-    width: 6rem;
+    width: 5rem;
   }
 
   .efect {
