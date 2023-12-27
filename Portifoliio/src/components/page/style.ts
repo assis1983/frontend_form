@@ -51,10 +51,10 @@ export const StyleImage = styled.div`
   .efect {
     height: auto;
     transition: transform 0.2s ease-in-out;
-
-    &:hover {
+      &:hover {
       transform: scale(1.4);
     }
+    
   }
 
   a {
