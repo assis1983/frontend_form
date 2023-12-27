@@ -16,6 +16,7 @@ import {
 import IconJs from "../../assets/js";
 import IconNode from "../../assets/node";
 import IconTS from "../../assets/ts";
+import IconPython from "../../assets/python";
 import IconNpm from "../../assets/npm";
 import IconReact from "../../assets/react";
 import IconHtml from "../../assets/html";
@@ -88,6 +89,12 @@ const Page = () => {
           <a href="https://www.typescriptlang.org/" target="_blank">
             <IconTS />
             <p>TYPESCRIPT</p>
+          </a>
+        </div>
+        <div className="efect">
+          <a href="https://www.python.org/" target="_blank">
+            <IconPython />
+            <p>PYTHON</p>
           </a>
         </div>
         <div className="efect">
