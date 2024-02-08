@@ -11,7 +11,7 @@ const GlobalStyles = createGlobalStyle`
     }
     background-color: black; 
     color: white; 
-    font-family: 'Poppins'; 
+    font-family: 'Poppins', sans-serif;
   }
 `;
 

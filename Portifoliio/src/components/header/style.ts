@@ -18,6 +18,14 @@ export const HeaderContainer = styled.header`
     text-decoration: none;
     color: inherit;
   }
+  @media (max-width: 768px) {
+    flex-direction: column; 
+    text-align: center; 
+
+    .name {
+      font-size: 24px; 
+    }
+  }
 `;
 
 export const Menu = styled.nav`
@@ -47,9 +55,7 @@ export const Menu = styled.nav`
   }
 `;
 
-
 export const StyleLink = styled.div`
   display: flex;
   gap: 2rem;
-
-`
+`;

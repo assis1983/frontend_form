@@ -42,8 +42,8 @@ export const StyleImage = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin: 0 30px; /* Alterado para margem em todos os lados */
+
   div {
     width: 3rem;
   }
@@ -51,45 +51,81 @@ export const StyleImage = styled.div`
   .efect {
     height: auto;
     transition: transform 0.2s ease-in-out;
-      &:hover {
+    &:hover {
       transform: scale(1.4);
     }
-    
   }
 
   a {
     text-decoration: none;
   }
+
   p {
     display: flex;
     align-items: center;
     justify-content: space-around;
     color: #34d1bf;
     font-size: 1rem;
+
     &:hover {
       border-bottom: 2px solid #34d1bf;
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+
+    div {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .efect {
+      width: 50%;
+      max-width: 100px;
+      margin: 0 auto;
     }
   }
 `;
 
 export const StyledAbout = styled.div`
   display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: justify;
   font-size: 1rem;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin: 0 30px;
   gap: 25px;
+
   img {
-    width: 50%;
-    height: 380px;
+    max-width: 100%;
+    height: auto;
     border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    text-align: left;
+    img {
+      max-width: 50%;
+      height: auto;
+      margin-bottom: 0;
+    }
   }
 `;
+
 export const StyledProject = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  
+
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
 `;
+
 export const ImageProject = styled.img`
   width: 30%;
   height: auto;

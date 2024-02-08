@@ -99,7 +99,7 @@ const Page = () => {
           </a>
         </div>
         <div className="efect" id="django">
-          <a href="https://www.python.org/" target="_blank">
+          <a href="https://www.djangoproject.com/" target="_blank">
             <IconDjango />
             <p>DJANGO</p>
           </a>
